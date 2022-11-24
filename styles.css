@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: white;
+}
+
+.cabecalho {
+  background-color: #272727;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  gap: 7rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffd900;
+}
+
+span {
+  color: #ffffff;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cabecalho-menu-item:hover {
+  color: #ffd900;
+  transition: 0.2s;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Press Start 2P", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #131313;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #131313;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #d3b404;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  color: #ffffff;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: #c7a301;
+  transition: 0.9s;
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #131313;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #131313;
+  text-shadow: 2px 2px 2px #13131370;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-titulo:hover {
+  color: #ffd900;
+  transition: 1s;
+  text-shadow: 2px 2px 2px #13131370;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  color: #131313;
+}
+
+.rodape {
+  padding: 20px;
+  text-decoration: solid;
+  display: flex;
+  justify-content: center;
+  border-top: 0.4px solid #131313;
+}
+
+footer, h1{
+    color:#d1bc00;
+}
